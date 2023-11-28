@@ -106,8 +106,10 @@ BOARD_RAMDISK_OFFSET := 0x01000000
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CONFIG := cepheus_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/cepheus
-TARGET_KERNEL_CLANG_VERSION := playground
-KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-playground/bin
+# TARGET_KERNEL_CLANG_VERSION := playground
+# KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-playground/bin
+TARGET_KERNEL_CLANG_VERSION := r450784d
+KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-r450784d/bin
 KERNEL_SUPPORTS_LLD := true
 KERNEL_SUPPORTS_LLVM_TOOLS := true
 
