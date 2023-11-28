@@ -513,3 +513,5 @@ firmware_directories /vendor/firmware_mnt/image/ /vendor/firmware/
 /dev/tfa_rw               0660   system       system
 /dev/tfa_rpc              0660   system       system
 /dev/tfa_control          0660   system       system
+
+import /vendor/etc/init/hw/ueventd.okcar.rc
