@@ -527,10 +527,10 @@ PRODUCT_COPY_FILES += \
 
 #Vibrator
 PRODUCT_PACKAGES += \
-     vendor.qti.hardware.vibrator.service.xiaomi
+     vendor.qti.hardware.vibrator.service
 
-PRODUCT_COPY_FILES += \
-     hardware/xiaomi/aidl/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
+# PRODUCT_COPY_FILES += \
+#      hardware/xiaomi/aidl/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
 
 # Vulkan
 PRODUCT_PACKAGES += \
